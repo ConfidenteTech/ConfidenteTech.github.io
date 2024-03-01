@@ -4,21 +4,21 @@
             "Ecrã": 179.99,
             "Bateria": 100,
             "Camera traseira": 200,
-            "Camera frontal": 200,
+            "Camera frontal": 39.99,
             "Outro": 0
         },
         "iPhone 14 Pro Max": {
             "Ecrã": 244.99,
             "Bateria": 59.99,
             "Camera traseira": 104.99,
-            "Camera frontal": 200,
+            "Camera frontal": 39.99,
             "Outro": 0
         },
         "iPhone 14 Pro": {
             "Ecrã": 244.99,
             "Bateria": 59.99,
             "Camera traseira": 104.99,
-            "Camera frontal": 200,
+            "Camera frontal": 39.99,
             "Outro": 0
         },
         "iPhone 14 plus": {
@@ -67,7 +67,7 @@
             "Ecrã": 59.99,
             "Bateria": 39.99,
             "Camera traseira": 89.99,
-            "Camera frontal": 24..99,
+            "Camera frontal": 24.99,
             "Outro": 0
         },
         "iPhone 12 Pro": {
