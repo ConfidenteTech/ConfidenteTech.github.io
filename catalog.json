@@ -2,6 +2,7 @@
     "iPhone": {
         "iPhone 15": {
             "Ecrã": 179.99,
+            "Vidro traseiro": 24.99,
             "Bateria": 100,
             "Camera traseira": 200,
             "Camera frontal": 39.99,
@@ -9,6 +10,7 @@
         },
         "iPhone 14 Pro Max": {
             "Ecrã": 244.99,
+            "Vidro traseiro": 24.99,
             "Bateria": 59.99,
             "Camera traseira": 104.99,
             "Camera frontal": 39.99,
@@ -16,6 +18,7 @@
         },
         "iPhone 14 Pro": {
             "Ecrã": 244.99,
+            "Vidro traseiro": 24.99,
             "Bateria": 59.99,
             "Camera traseira": 104.99,
             "Camera frontal": 39.99,
@@ -23,6 +26,7 @@
         },
         "iPhone 14 plus": {
             "Ecrã": 64.99,
+            "Vidro traseiro": 24.99,
             "Bateria": 49.99,
             "Camera traseira": 79.99,
             "Camera frontal": 34.99,
@@ -30,6 +34,7 @@
         },
         "iPhone 14": {
             "Ecrã": 64.99,
+            "Vidro traseiro": 24.99,
             "Bateria": 49.99,
             "Camera traseira": 69.99,
             "Camera frontal": 35.99,
@@ -37,6 +42,7 @@
         },
         "iPhone 13 Pro Max": {
             "Ecrã": 174.99,
+            "Vidro traseiro": 29.99,
             "Bateria": 39.99,
             "Camera traseira": 99.99,
             "Camera frontal": 29.99,
@@ -44,6 +50,7 @@
         },
         "iPhone 13 Pro": {
             "Ecrã": 149.99,
+            "Vidro traseiro": 29.99,
             "Bateria": 39.99,
             "Camera traseira": 99.99,
             "Camera frontal": 29.99,
@@ -51,6 +58,7 @@
         },
         "iPhone 13": {
             "Ecrã": 59.99,
+            "Vidro traseiro": 29.99,
             "Bateria": 34.99,
             "Camera traseira": 39.99,
             "Camera frontal": 29.99,
@@ -58,6 +66,7 @@
         },
         "iPhone 13 mini": {
             "Ecrã": 69.99,
+            "Vidro traseiro": 29.99,
             "Bateria": 34.99,
             "Camera traseira": 200,
             "Camera frontal": 29.99,
@@ -65,6 +74,7 @@
         },
         "iPhone 12 Pro Max": {
             "Ecrã": 59.99,
+            "Vidro traseiro": 179.99,
             "Bateria": 39.99,
             "Camera traseira": 89.99,
             "Camera frontal": 24.99,
@@ -72,6 +82,7 @@
         },
         "iPhone 12 Pro": {
             "Ecrã": 44.99,
+            "Vidro traseiro": 29.99,
             "Bateria": 39.99,
             "Camera traseira": 109.99,
             "Camera frontal": 24.99,
@@ -79,6 +90,7 @@
         },
         "iPhone 12": {
             "Ecrã": 44.99,
+            "Vidro traseiro": 24.99,
             "Bateria": 34.99,
             "Camera traseira": 44.99,
             "Camera frontal": 24.99,
@@ -86,6 +98,7 @@
         },
         "iPhone 12 mini": {
             "Ecrã": 59.99,
+            "Vidro traseiro": 24.99,
             "Bateria": 34.99,
             "Camera traseira": 54.99,
             "Camera frontal": 24.99,
@@ -93,13 +106,15 @@
         },
         "iPhone 11 Pro Max": {
             "Ecrã": 44.99,
+            "Vidro traseiro": 19.99,
             "Bateria": 39.99,
             "Camera traseira": 64.99,
             "Camera frontal": 24.99,
             "Outro": 0
         },
         "iPhone 11 Pro": {
-            "Ecrã": 44.99,
+            "Ecrã": 39.99,
+            "Vidro traseiro": 19.99,
             "Bateria": 39.99,
             "Camera traseira": 64.99,
             "Camera frontal": 24.99,
@@ -107,6 +122,7 @@
         },
         "iPhone 11": {
             "Ecrã": 39.99,
+            "Vidro traseiro": 19.99,
             "Bateria": 34.99,
             "Camera traseira": 39.99,
             "Camera frontal": 19.99,
@@ -114,6 +130,7 @@
         },
         "iPhone XS Max": {
             "Ecrã": 39.99,
+            "Vidro traseiro": 19.99,
             "Bateria": 34.99,
             "Camera traseira": 54.99,
             "Camera frontal": 24.99,
@@ -121,6 +138,7 @@
         },
         "iPhone XS": {
             "Ecrã": 39.99,
+            "Vidro traseiro": 19.99,
             "Bateria": 34.99,
             "Camera traseira": 54.99,
             "Camera frontal": 24.99,
@@ -128,6 +146,7 @@
         },
         "iPhone XR": {
             "Ecrã": 39.99,
+            "Vidro traseiro": 19.99,
             "Bateria": 34.99,
             "Camera traseira": 49.99,
             "Camera frontal": 19.99,
@@ -135,6 +154,7 @@
         },
         "iPhone X": {
             "Ecrã": 39.99,
+            "Vidro traseiro": 19.99,
             "Bateria": 34.99,
             "Camera traseira": 39.99,
             "Camera frontal": 19.99,
@@ -142,6 +162,7 @@
         },
         "iPhone 8 Plus": {
             "Ecrã": 29.99,
+            "Vidro traseiro": 19.99,
             "Bateria": 39.99,
             "Camera traseira": 39.99,
             "Camera frontal": 19.99,
@@ -149,6 +170,7 @@
         },
         "iPhone 8": {
             "Ecrã": 29.99,
+            "Vidro traseiro": 19.99,
             "Bateria": 39.99,
             "Camera traseira": 29.99,
             "Camera frontal": 19.99,
@@ -170,6 +192,7 @@
         },
         "iPhone SE (3a geração)": {
             "Ecrã": 54.99,
+            "Vidro traseiro": 19.99,
             "Bateria": 100,
             "Camera traseira": 200,
             "Camera frontal": 200,
@@ -177,6 +200,7 @@
         },
         "iPhone SE (2a geração)": {
             "Ecrã": 34.99,
+            "Vidro traseiro": 19.99,
             "Bateria": 49.99,
             "Camera traseira": 39.99,
             "Camera frontal": 200,
@@ -184,6 +208,7 @@
         },
         "iPhone SE (1a geração)": {
             "Ecrã": 29.99,
+            "Vidro traseiro": 19.99,
             "Bateria": 34.99,
             "Camera traseira": 200,
             "Camera frontal": 200,
