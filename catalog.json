@@ -216,7 +216,6 @@
         "Outro": {}
     },
     "Samsung": {
-        },
         "Galaxy A14": {
             "Ecrã": 34.99,
             "Bateria": 100,
@@ -240,7 +239,6 @@
             "Camera frontal": 29.99,
             "Outro": 0
         },
-       
         "Galaxy Note20 5G": {
             "Ecrã": 150,
             "Bateria": 100,
@@ -296,10 +294,7 @@
             "Camera traseira": 200,
             "Camera frontal": 200,
             "Outro": 0
-        } "Outro": {}
+        }
     },
-    "Outro": {
-        ...
-    }
+    "Outro": {}
 }
-
