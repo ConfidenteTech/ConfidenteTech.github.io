@@ -19,7 +19,7 @@
     <title>ConfidenteTech</title>
 </head>
 <body>
-    <main id="main">
+    <main id="main" style="position: relative;">
         <div class="info">
             <img src="icon.png">
             <h1>ConfidenteTech</h1>
@@ -36,6 +36,7 @@
             <select id="serviceSelect">
                 <option value="" disabled selected hidden>Reparo</option>
             </select>
+        <span class="back-btn" onclick="location.reload()">＜ Voltar</span>
         </div>
         <div class="price-container">
             <button id="price" onclick="contact()">Contactar</button>
@@ -130,6 +131,14 @@
     .info {
         margin-bottom: 28px;
     }
+    .back-btn {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: #ff9015;
+        cursor: pointer;
+        display: none;
+    }
     
     @keyframes remain {
         0% {
@@ -195,6 +204,7 @@
             const modelSelect = document.getElementById('modelSelect');
             modelSelect.style.display = "block";
             brandSelect.style.display = "none";
+            document.querySelector(".back-btn").style.display = "block";
             text.innerHTML = "Selecione o modelo do telemóvel";
             // Clear previous options
             //modelSelect.innerHTML = '';
@@ -287,11 +297,14 @@
 
     function contact() {
         if (!final_model) {
-            alert("Reparo%20|%20" + final_brand.replace(" ", "%20"));
+            let message = "Reparo%20|%20" + final_brand.replace(" ", "%20");
+            window.location.href = "mailto:confidentetech@gmail.com?subject=" + message;
             return
         }
         if (!final_repair) {
-            alert("Reparo%20|%20" + final_brand.replace(" ", "%20") + "%20|%20" + final_model.replace(" ", "%20"));
+            let message = "Reparo%20|%20" + final_brand.replace(" ", "%20") + "%20|%20" + final_model.replace(" ", "%20");
+            window.location.href = "mailto:confidentetech@gmail.com?subject=" + message;
+            return
         }
         let message = ("Reparo%20|%20" + final_brand.replace(" ", "%20") + "%20|%20" + final_model.replace(" ", "%20") + "%20|%20" + final_repair.replace(" ", "%20"));
         window.location.href = "mailto:confidentetech@gmail.com?subject=" + message;
