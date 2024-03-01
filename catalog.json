@@ -1,0 +1,548 @@
+{
+    "iPhone": {
+        "iPhone 15 Pro Max": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 15 Pro": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 15": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 14 Pro Max": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 14 Pro": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 14": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 13 Pro Max": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 13 Pro": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 13": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 13 mini": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 12 Pro Max": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 12 Pro": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 12": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 12 mini": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 11 Pro Max": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 11 Pro": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 11": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone XS Max": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone XS": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone XR": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone X": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 8 Plus": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 8": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 7 Plus": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 7": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone SE (3a geração)": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone SE (2a geração)": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone SE (1a geração)": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Outro": {}
+    },
+    "Samsung": {
+        "Galaxy S24 Ultra": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S24+": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S24": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy A25": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy A15 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy A15": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S23 FE": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy A05s": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy A05": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy F34": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy Z Fold5": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy Z Flip5": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy F54": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy A24 4G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy F14": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "iPhone 12 mini": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy A54": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy A34": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S23 Ultra": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S23+": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S23": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy A14": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy A14 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy Z Fold4": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy Z Flip4": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S22 Ultra 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S22+ 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S22 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S21 FE 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy Z Fold3 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy Z Flip3 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S21 Ultra 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S21+ 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S21 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S20 FE 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S20 FE": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy Z Fold2 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy Note20 Ultra 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy Note20 Ultra": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy Note20 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy Note20": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy Z Flip 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy Z Flip": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S20 Ultra 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S20 Ultra": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S20+ 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S20+": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S20 5G": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Galaxy S20": {
+            "Ecrã": 150,
+            "Bateria": 100,
+            "Camera traseira": 200,
+            "Camera frontal": 200,
+            "Outro": 0
+        },
+        "Outro": {}
+    },
+    "Outro": {}
+}

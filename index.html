@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-72BP0PZ743"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-72BP0PZ743');
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL@1" rel="stylesheet" />
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>ConfidenteTech</title>
+</head>
+<body>
+    <main id="main">
+        <div class="info">
+            <img src="icon.png">
+            <h1>ConfidenteTech</h1>
+            <span>Reparo de telemóveis com confiança</span>
+        </div>
+        <span id="droptext">Selecione a marca do telemóvel</span>
+        <div class="dropdowns">
+            <select id="brandSelect">
+                <option value="" disabled selected hidden>Marca</option>
+            </select>
+            <select id="modelSelect">
+                <option value="" disabled selected hidden>Modelo</option>
+            </select>
+            <select id="serviceSelect">
+                <option value="" disabled selected hidden>Reparo</option>
+            </select>
+        </div>
+        <div class="price-container">
+            <button id="price" onclick="contact()">Contactar</button>
+        </div>
+    </main>
+</body>
+<style>
+    body {
+        background-color: #ececec;
+        background-image: url("background.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    img {
+        width: 200px;
+    }
+    main {
+        background-color: #333333;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.445) 4px 4px 20px;
+    }
+    .main-anim {
+        animation: remain 800ms forwards;
+    }
+    .dropdowns {
+        margin-top: 14px;
+        display: flex;
+        flex-direction: column;
+    }
+    select {
+        font-size: 16px;
+        background-color: #ff92151f;
+        border-radius: 5px;
+        margin: 3px;
+        width: 100%;
+        height: 40px;
+        border: solid 3px #ff9015;
+        color: #ffffff;
+    }
+    option {
+        background-color: #ff9015;
+        color: white;
+    }
+    #modelSelect, #serviceSelect {
+        display: none;
+    }
+    .price-container {
+        width: 300px;
+        min-height: 40px;
+        text-align: center;
+        border-radius: 5px;
+        margin-top: 5px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .price-container span {
+        margin: 5px;
+    }
+    .price-container button {
+        background-color: #ff9015;
+        border: solid 3px #ff9015;
+        width: 300px;
+        min-height: 40px;
+        border-radius: 5px;
+        font-size: 17px;
+        cursor: pointer;
+        color: white;
+    }
+    .price-container span {
+        margin: 5px;
+    }
+    #droptext {
+        font-size: 18px;
+    }
+    h1 {
+        margin: 0;
+    }
+    .info {
+        margin-bottom: 28px;
+    }
+    
+    @keyframes remain {
+        0% {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+        49% {
+            transform: translateY(80px);
+            opacity: 0;
+        }
+        50% {
+            transform: translateY(-80px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @media (max-width: 500px) {
+        main {
+            width: 70vw;
+        }
+    }
+</style>
+<script>
+    let text = document.getElementById("droptext");
+    let main = document.querySelector(".dropdowns");
+    let catalog;
+    let final_price;
+    let final_brand;
+    let final_model;
+    let final_repair;
+    fetch('catalog.json')
+    .then(response => response.json())
+    .then(data => {
+        catalog = data;
+        const brandSelect = document.getElementById('brandSelect');
+        for (let brand in catalog) {
+            const option = document.createElement('option');
+            option.value = brand;
+            option.text = brand;
+            brandSelect.appendChild(option);
+        }
+        brandSelect.addEventListener('change', (event) => {
+            const brand = event.target.value;
+            const items = catalog[brand];
+            final_brand = brand;
+            main.classList.add("main-anim");
+            setTimeout(function() {
+                main.classList.remove("main-anim");
+            }, 800)
+            if (brand == "Outro") {
+                brandSelect.style.display = "none";
+                const priceSpan = document.getElementById('price');
+                document.querySelector(".price-container").style.display = "flex";
+                priceSpan.textContent = 'Contactar para reparo';
+                text.style.display = "none";
+                return
+            }
+            console.log(items);
+            const modelSelect = document.getElementById('modelSelect');
+            modelSelect.style.display = "block";
+            brandSelect.style.display = "none";
+            text.innerHTML = "Selecione o modelo do telemóvel";
+            // Clear previous options
+            //modelSelect.innerHTML = '';
+            if (Array.isArray(items)) {
+                for (let item of items) {
+                    const option = document.createElement('option');
+                    option.value = item;
+                    option.text = item;
+                    modelSelect.appendChild(option);
+                }
+            } else if (typeof items === 'object') {
+                for (let key in items) {
+                    const option = document.createElement('option');
+                    option.value = key;
+                    option.text = key;
+                    modelSelect.appendChild(option);
+                }
+            }
+        });
+
+        const modelSelect = document.getElementById('modelSelect');
+        modelSelect.addEventListener('change', (event) => {
+            const item = event.target.value;
+            final_model = item;
+            main.classList.add("main-anim");
+            setTimeout(function() {
+                main.classList.remove("main-anim");
+            }, 800)
+            if (item == "Outro") {
+                modelSelect.style.display = "none";
+                const priceSpan = document.getElementById('price');
+                document.querySelector(".price-container").style.display = "flex";
+                priceSpan.textContent = 'Contactar para reparo';
+                text.style.display = "none";
+                return
+            }
+            const children = catalog[brandSelect.value][item];
+            console.log(children);
+            const serviceSelect = document.getElementById('serviceSelect');
+            modelSelect.style.display = "none";
+            serviceSelect.style.display = "block";
+            text.innerHTML = "Selecione o tipo de reparo";
+            // Clear previous options
+            //serviceSelect.innerHTML = '';
+            if (Array.isArray(children)) {
+                for (let child of children) {
+                    const option = document.createElement('option');
+                    option.value = child;
+                    option.text = child;
+                    serviceSelect.appendChild(option);
+                }
+            } else if (typeof children === 'object') {
+                for (let key in children) {
+                    const option = document.createElement('option');
+                    option.value = key;
+                    option.text = key;
+                    serviceSelect.appendChild(option);
+                }
+            }
+        });
+
+        const serviceSelect = document.getElementById('serviceSelect');
+        serviceSelect.addEventListener('change', (event) => {
+            const child = event.target.value;
+            final_repair = child;
+            main.classList.add("main-anim");
+            setTimeout(function() {
+                main.classList.remove("main-anim");
+                serviceSelect.style.display = "none";
+            }, 400)
+            if (child == "Outro") {
+                serviceSelect.style.display = "none";
+                const priceSpan = document.getElementById('price');
+                document.querySelector(".price-container").style.display = "flex";
+                priceSpan.textContent = 'Contactar para reparo';
+                text.style.display = "none";
+                return
+            }
+            const price = catalog[brandSelect.value][modelSelect.value][child];
+            console.log(price);
+            
+            const priceSpan = document.getElementById('price');
+            text.style.display = "none";
+            final_price = price;
+            document.querySelector(".price-container").style.display = "flex";
+            priceSpan.textContent = 'Agendar reparo por ' + price + '€';
+        });
+    })
+    .catch(error => console.error(error));
+
+    function contact() {
+        if (!final_model) {
+            alert("Reparo%20|%20" + final_brand.replace(" ", "%20"));
+            return
+        }
+        if (!final_repair) {
+            alert("Reparo%20|%20" + final_brand.replace(" ", "%20") + "%20|%20" + final_model.replace(" ", "%20"));
+        }
+        let message = ("Reparo%20|%20" + final_brand.replace(" ", "%20") + "%20|%20" + final_model.replace(" ", "%20") + "%20|%20" + final_repair.replace(" ", "%20"));
+        window.location.href = "mailto:confidentetech@gmail.com?subject=" + message;
+    }
+</script>
+</html>
