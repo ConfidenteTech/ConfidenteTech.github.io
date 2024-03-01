@@ -216,13 +216,27 @@
         "Outro": {}
     },
     "Samsung": {
-        "Galaxy A14": {
+        "Galaxy A13": {
             "Ecrã": 34.99,
             "Camera traseira": 34.99,
             "Camera frontal": 24.99,
             "Outro": 0
          },
-          "Galaxy a51": {
+         "Galaxy a14": {
+            "Ecrã": 34.99,
+            "Bateria": 39.99,
+            "Camera traseira": 34.99,
+            "Camera frontal": 24.99,
+            "Outro": 0
+        },
+        "Galaxy a51": {
+            "Ecrã": 49.99,
+            "Bateria": 24.99,
+            "Camera traseira": 39.99,
+            "Camera frontal": 24.99,
+            "Outro": 0
+        },
+         "Galaxy a52": {
             "Ecrã": 150,
             "Bateria": 100,
             "Camera traseira": 200,
