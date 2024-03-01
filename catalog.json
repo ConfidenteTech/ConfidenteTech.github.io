@@ -218,13 +218,12 @@
     "Samsung": {
         "Galaxy A14": {
             "Ecrã": 34.99,
-            "Bateria": 100,
-            "Camera traseira": 200,
-            "Camera frontal": 200,
+            "Camera traseira": 34.99,
+            "Camera frontal": 24.99,
             "Outro": 0
-        },
-        "Galaxy A14 5G": {
-            "Ecrã": 34.99,
+         },
+          "Galaxy a51": {
+            "Ecrã": 150,
             "Bateria": 100,
             "Camera traseira": 200,
             "Camera frontal": 200,
@@ -237,20 +236,6 @@
             "Camera traseira normal e ultra wide": 74.99,
             "Camera traseira x2 zomm": 29.99,
             "Camera frontal": 29.99,
-            "Outro": 0
-        },
-        "Galaxy Note20 5G": {
-            "Ecrã": 150,
-            "Bateria": 100,
-            "Camera traseira": 200,
-            "Camera frontal": 200,
-            "Outro": 0
-        },
-        "Galaxy Note20": {
-            "Ecrã": 150,
-            "Bateria": 100,
-            "Camera traseira": 200,
-            "Camera frontal": 200,
             "Outro": 0
         },
         "Galaxy S20 Ultra 5G": {
