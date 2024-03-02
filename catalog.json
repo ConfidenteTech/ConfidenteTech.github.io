@@ -250,10 +250,17 @@
         "Outro": {}
     },
     "Acessorios": {
-        "Galaxy A13": {
-            "Ecrã": 34.99,
-            "Camera traseira": 34.99,
-            "Camera frontal": 24.99,
+        "carregadores": {
+            "carregador tipo c para tipo c": 29.99,
+            "carregador tipo c para lightning": 29.99,
+            "carregador sem fio": 19.99,
+            "Outro": 0
+        },
+        "carregador portatil": {
+            "carregador magsafe 5000mah": 29.99,
+            "carregador magsafe 10000mah": 39.99,
+            "carregador generico 10000mah": 24.99,
+            "carregador generico 20000mah": 34.99,
             "Outro": 0
         },
         "Outro": {}
