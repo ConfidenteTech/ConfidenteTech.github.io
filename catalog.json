@@ -237,10 +237,10 @@
             "Outro": 0
         },
          "Galaxy a52": {
-            "Ecrã": 150,
-            "Bateria": 100,
-            "Camera traseira": 200,
-            "Camera frontal": 200,
+            "Ecrã": 49.99,
+            "Bateria": 24.99,
+            "Camera traseira": 39.99,
+            "Camera frontal": 24.99,
             "Outro": 0
         },
         "Galaxy S22 ultra ": {
@@ -250,20 +250,16 @@
             "Camera traseira normal e ultra wide": 74.99,
             "Camera traseira x2 zomm": 29.99,
             "Camera frontal": 29.99,
-            "Outro": 0
-        },
-        "Galaxy S20 Ultra 5G": {
-            "Ecrã": 150,
-            "Bateria": 100,
-            "Camera traseira": 200,
-            "Camera frontal": 200,
+            "vidro traseiro": 24.99,
             "Outro": 0
         },
         "Galaxy S20 Ultra": {
-            "Ecrã": 150,
-            "Bateria": 100,
-            "Camera traseira": 200,
-            "Camera frontal": 200,
+            "Ecrã": 179.99,
+            "Bateria": 39.99,
+            "Camera traseira 10x zooom": 39.99,
+             "Camera traseira normal ultra wide": 74.99,
+            "Camera frontal": 29.99,
+            "vidro traseiro": 24.99,
             "Outro": 0
         },
         "Galaxy S20+ 5G": {
@@ -271,27 +267,24 @@
             "Bateria": 100,
             "Camera traseira": 200,
             "Camera frontal": 200,
+            "vidro traseiro": 24.99,
             "Outro": 0
         },
-        "Galaxy S20+": {
-            "Ecrã": 150,
-            "Bateria": 100,
-            "Camera traseira": 200,
-            "Camera frontal": 200,
+        "Galaxy S20 e 20+": {
+            "Ecrã": 174.99,
+            "Bateria": 39.99,
+            "Camera traseira normal e ultra wide":79.99,
+            "Camera traseira zoom 3x":39.99,
+            "Camera frontal": 29.99,
+            "vidro traseiro": 24.99,
             "Outro": 0
         },
-        "Galaxy S20 5G": {
-            "Ecrã": 150,
-            "Bateria": 100,
-            "Camera traseira": 200,
-            "Camera frontal": 200,
-            "Outro": 0
-        },
-        "Galaxy S20": {
-            "Ecrã": 150,
-            "Bateria": 100,
-            "Camera traseira": 200,
-            "Camera frontal": 200,
+        "Galaxy S10": {
+            "Ecrã": 119.99,
+            "Bateria": 39.99,
+            "Cameras traseiras": 59.99,
+            "Camera frontal": 19.99,
+            "vidro traseiro": 24.99,
             "Outro": 0
         }
     },
