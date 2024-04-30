@@ -42,6 +42,25 @@
             <button id="price" onclick="contact()">Contactar</button>
         </div>
     </main>
+    <div class="contact-options">
+        <div class="options-button" onclick="phone()">
+            <img src="phone_icon.svg">
+            <span>Telemovel</span>
+        </div>
+        <div class="options-button" onclick="whatsapp()">
+            <img src="whatsapp_icon.svg" alt="">
+            <span>WhatsApp</span>
+        </div>
+        <div class="options-button" onclick="email()">
+            <img src="mail_icon.svg" alt="">
+            <span>E-mail</span>
+        </div>
+    </div>
+    <div class="small-contacts">
+        <a href="tel:+351933528410">933 528 410</a>
+        <span>•</span>
+        <a href="mailto:confidentetech@gmail.com">confidentetech@gmail.com</a>
+    </div>
 </body>
 <style>
     body {
@@ -69,6 +88,34 @@
         padding: 50px;
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.445) 4px 4px 20px;
+    }
+    .contact-options {
+        background-color: #333333;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.445) 4px 4px 20px;
+        display: none;
+        flex-direction: column;
+    }
+    .contact-options .options-button {
+        background-color: #ff9015;
+        border: solid 3px #ff9015;
+        min-height: 40px;
+        border-radius: 5px;
+        font-size: 17px;
+        cursor: pointer;
+        color: white;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 80px;
+    }
+    .contact-options .options-button  img {
+        filter: invert(1);
+        width: 80px;
+        margin: 5px;
     }
     .main-anim {
         animation: remain 800ms forwards;
@@ -139,6 +186,19 @@
         cursor: pointer;
         display: none;
     }
+
+    .small-contacts {
+        margin-top: 10px;
+    }
+
+    .small-contacts span {
+        color: #333333;;
+    }
+
+    .small-contacts a {
+        text-decoration: none;
+        color: #333333;
+    }
     
     @keyframes remain {
         0% {
@@ -189,11 +249,12 @@
             const items = catalog[brand];
             final_brand = brand;
             main.classList.add("main-anim");
+            document.querySelector(".back-btn").style.display = "none";
             setTimeout(function() {
                 main.classList.remove("main-anim");
+                document.querySelector(".back-btn").style.display = "block";
             }, 800)
             if (brand == "Outro") {
-                document.querySelector(".back-btn").style.display = "block";
                 brandSelect.style.display = "none";
                 const priceSpan = document.getElementById('price');
                 document.querySelector(".price-container").style.display = "flex";
@@ -231,8 +292,10 @@
             const item = event.target.value;
             final_model = item;
             main.classList.add("main-anim");
+            document.querySelector(".back-btn").style.display = "none";
             setTimeout(function() {
                 main.classList.remove("main-anim");
+                document.querySelector(".back-btn").style.display = "block";
             }, 800)
             if (item == "Outro") {
                 modelSelect.style.display = "none";
@@ -297,18 +360,49 @@
     .catch(error => console.error(error));
 
     function contact() {
+        document.querySelector(".contact-options").style.display = "flex";
+        document.querySelector("main").style.display = "none";
+    }
+
+    function email() {
         if (!final_model) {
-            let message = "Reparo%20|%20" + final_brand.replace(" ", "%20");
-            window.location.href = "mailto:confidentetech@gmail.com?subject=" + message;
+            let message = "Reparo | " + final_brand;
+            let encoded_message = encodeURI(message);
+            window.location.href = "mailto:confidentetech@gmail.com?subject=" + encoded_message;
             return
         }
         if (!final_repair) {
-            let message = "Reparo%20|%20" + final_brand.replace(" ", "%20") + "%20|%20" + final_model.replace(" ", "%20");
-            window.location.href = "mailto:confidentetech@gmail.com?subject=" + message;
+            let message = "Reparo | " + final_brand + " | " + final_model;
+            let encoded_message = encodeURI(message);
+            window.location.href = "mailto:confidentetech@gmail.com?subject=" + encoded_message;
             return
         }
-        let message = ("Reparo%20|%20" + final_brand.replace(" ", "%20") + "%20|%20" + final_model.replace(" ", "%20") + "%20|%20" + final_repair.replace(" ", "%20"));
-        window.location.href = "mailto:confidentetech@gmail.com?subject=" + message;
+        let message = ("Reparo | " + final_brand + " | " + final_model + " | " + final_repair);
+        let encoded_message = encodeURI(message);
+        window.location.href = "mailto:confidentetech@gmail.com?subject=" + encoded_message;
+    }
+
+    function phone() {
+        window.location.href = 'tel:+351933528410';
+    }
+
+    function whatsapp() {
+        if (!final_model) {
+            let message = "Reparo de " + final_brand;
+            let encoded_message = encodeURI(message);
+            window.location.href = "mailto:confidentetech@gmail.com?subject=" + encoded_message;
+            return
+        }
+        if (!final_repair) {
+            let message = "Reparo de " + final_brand + " " + final_model;
+            let encoded_message = encodeURI(message);
+            window.location.href = "mailto:confidentetech@gmail.com?subject=" + encoded_message;
+            return
+        }
+        let message = ("Reparo de " + final_repair + " de " + final_brand + " " + final_model);
+        let encoded_message = encodeURI(message);
+        window.location.href = "mailto:confidentetech@gmail.com?subject=" + encoded_message;
+        window.location.href = 'https://wa.me/351933528410?text=' + encoded_message;
     }
 </script>
 </html>
