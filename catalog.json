@@ -1,28 +1,52 @@
 {
     "iPhone": {
         "iPhone 15 pro max": {
-            "Ecrã": 579.99,
-            "Vidro traseiro": 24.99,
-            "Camera traseira": 69.99,
-            "Camera frontal": 39.99,
+         "Ecrã":549.99,
+            "Vidro traseiro": 44.99,
+            "Bateria": 69.99,
+            "Camera traseira": 39.99,
+            "Camera frontal": 34.99,
+            "Face ID": 39.99,
+            "Conector lightning": 34.99,
+            "Microfone":34.99;
+            "Botão volume - silencio - on/off": 34.99,
+            "Sensor de proximidade": 34.99,
+            "Antena wifi - Bluetooh": 34.99,
+            "Vibração": 34.99,
             "Outro": 0
         },
         "iPhone 15 pro": {
-            "Ecrã": 459.99,
-            "Vidro traseiro": 24.99,
-            "Camera traseira": 69.99,
-            "Camera frontal": 39.99,
+           "Ecrã":459.99,
+            "Vidro traseiro": 44.99,
+            "Bateria": 69.99,
+            "Camera traseira": 39.99,
+            "Camera frontal": 34.99,
+            "Face ID": 39.99,
+            "Conector lightning": 34.99,
+            "Microfone":34.99;
+            "Botão volume - silencio - on/off": 34.99,
+            "Sensor de proximidade": 34.99,
+            "Antena wifi - Bluetooh": 34.99,
+            "Vibração": 34.99,
             "Outro": 0
         },
             "iPhone 15 plus": {
-            "Ecrã": 179.99,
-            "Vidro traseiro": 24.99,
-            "Camera traseira": 69.99,
-            "Camera frontal": 39.99,
+            "Ecrã":189.99,
+            "Vidro traseiro": 44.99,
+            "Bateria": 69.99,
+            "Camera traseira": 39.99,
+            "Camera frontal": 34.99,
+            "Face ID": 39.99,
+            "Conector lightning": 34.99,
+            "Microfone":34.99;
+            "Botão volume - silencio - on/off": 34.99,
+            "Sensor de proximidade": 34.99,
+            "Antena wifi - Bluetooh": 34.99,
+            "Vibração": 34.99,
             "Outro": 0
         },
          "iPhone 15": {
-            "Ecrã":219.99,
+            "Ecrã":189.99,
             "Vidro traseiro": 44.99,
             "Bateria": 69.99,
             "Camera traseira": 39.99,
